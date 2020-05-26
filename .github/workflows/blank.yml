@@ -5,8 +5,6 @@ name: PR checker
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-  push:
-    branches: [ master ]
   pull_request:
     branches: [ master ]
 
@@ -26,6 +24,8 @@ jobs:
     # Runs a single command using the runners shell
     - name: SQF Validator
       run: python3 tools/sqf_validator.py
+    - name: SQF Validator v2
+      uses: arma-actions/sqflint@v1.0
     - name: Config stylechcker
       run: python3 tools/config_style_checker.py
 
