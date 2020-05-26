@@ -9,7 +9,7 @@ The framework is addon based, keeping filesize down and ensuring that even old m
 ## Core Features:
 - Extensive 3DEN integration
 - Automatic ACRE2 radio allocation and powerful channel creator, with randomized frequencies
-- Our own Spectator system, with support for highlighting positions of e.g. objectives
+- Our own Spectator system, with support for highlighting positionsasdasdasddasds of e.g. objectives
 - Assign Gear with config-based loadouts - loadouts can exist in the mission and/or an addon for retroactive updates
 - Hierarchal ORBAT integration with ingame map tracker
 - Easy Briefing system with automatically generated pages for player loadout, ORBAT and radios
